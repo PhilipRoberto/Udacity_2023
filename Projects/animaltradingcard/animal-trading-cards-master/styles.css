@@ -1,0 +1,62 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+    color: white;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: black; */
+    background-image: url(./leaves.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main-container {
+    background: rgba(225, 225, 225, 0.2);
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px 0px lightgrey;
+    padding: 0 10px;
+    backdrop-filter: blur(5px);
+}
+.sub-container {
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.fav-heading {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px 0;
+}
+.fav-animal {
+    margin: 10px 0;
+    width: 300px;
+    height: 200px;
+}
+p {
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 0;
+}
+span {
+    font-weight: bold;
+    font-size: 16px;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+}
+li {
+    list-style-type: none;
+    font-size: 14px;
+}
+.i-text {
+    font-style: italic;
+}

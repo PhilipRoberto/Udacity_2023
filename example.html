@@ -1,0 +1,26 @@
+Check this HTML out in developer tools!
+
+<ol>
+  <li>Right click on the this page (in the rendered preview view on the right) and choose Inspect. You should be able to find the same HTML shown here in this workspace.
+  <li>See if you can spot any differences between the markup shown in developer tools and what you see here.
+  <li>In particular, check out what happens to these list items where we have left off the optional closing tags.
+</ol>
+
+<style>
+.outer {
+        width: 300px;
+        border: 5px dotted orange;
+}
+
+.inner {
+        border: 5px solid blue;
+        width: 50%;
+}
+</style>
+<div class="outer">
+        <p> This box has a box inside!
+        <div class="inner">
+                <p> How wide is the inner box,
+                <em>including</em> its border?
+        </div>
+</div>
